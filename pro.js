@@ -11,3 +11,4 @@ function extend_feed($qv) {
 	return $qv;
 }
 add_filter('request', 'extend_feed');
+
